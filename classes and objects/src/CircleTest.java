@@ -13,36 +13,36 @@ public class CircleTest
 	   Circle y = new Circle();
 	   Scanner num = new Scanner(System.in);
        System.out.println("Enter value of radius");
-	   double rad = num.nextDouble();
-	   x.radius= rad;
+	   double radius = num.nextDouble();
+	   x.frad= radius;
 	   x.display();
 	   y.display();
 	}  
 }
 class Circle
     {
-    	double radius;
-    	double area()
+    	double frad;
+    	double far()
     	{
-    	return radius*radius*3.14;
+    	return frad*frad*3.14;
         }
         double cir()
         {
-        	return 2*3.14*radius;
+        	return 2*3.14*frad;
         }
         void display()
         {
-        System.out.println("Area=" + area());
+        System.out.println("Area=" + far());
         System.out.println("Circumference=" + cir());
         }
-        void Circle(double radius)
+        void Circle(double frad)
         
         {
-           this.radius=radius;
+           this.frad=frad;
         }
         Circle()
         {
-           this.radius= 1;
+           this.frad= 1;
         }
     }   
 
