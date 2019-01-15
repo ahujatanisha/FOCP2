@@ -1,5 +1,7 @@
 //author: Tanisha Ahuja
 //version: 1.0.0
+//Purpose:3.    Write a program to display the results of different relational operators and logical operators in 
+//Java on two Integer values and two Boolean values. Input values to be given within the program.
 
 
 import java.util.Scanner;

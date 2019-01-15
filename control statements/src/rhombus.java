@@ -1,6 +1,6 @@
 //author: Tanisha Ahuja
 //version: 1.0.0
-
+//Purpose: Write a Java program to display the following character rhombus structure.  
 import java.util.Scanner;
 
 public class rhombus

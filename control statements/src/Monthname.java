@@ -1,6 +1,7 @@
 //author: Tanisha Ahuja
 //version: 1.0.0
-
+//Purpose:2.  Write a Java program that takes a number from the user between 1 and 12 and displays the 
+//name of the corresponding month until the user wants to exit the program.(15 minutes
 
 import java.util.Scanner;
 

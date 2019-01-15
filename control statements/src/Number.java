@@ -1,6 +1,7 @@
 //author: Tanisha Ahuja
 //version: 1.0.0
-
+//Purpose:4.  Write an application that inputs one number consisting of five digits from the user, separates the number into its individual digits in the 
+//same order and prints the digits separated from one another by three spaces each.
 
 import java.util.*;
 public class Number

@@ -1,6 +1,6 @@
 //author: Tanisha Ahuja
 //version: 1.0.0
-
+//Purpose:Write a Java program to solve quadratic equations (use if, else if and else) 
 
 import java.util.Scanner;
 public class Quadequation

@@ -1,6 +1,7 @@
 //author: Tanisha Ahuja
 //version: 1.0.0
-
+//purpose:1.	Write a program that takes two integers (values to be given within the program) 
+//and displays the output of the following operators: addition, subtraction, multiplication, division and modulus. 
 
 public class arithmetic
 {
