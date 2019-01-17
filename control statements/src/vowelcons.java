@@ -8,9 +8,9 @@ class vowelcons
 {
 	public static void main(String args[])
 	{
-	  int i=0;
+	  int x=0;
 	  Scanner sc=new Scanner(System.in);
-	  System.out.println("Enter a character : ");
+	  System.out.println("Enter a char : ");
 	  char ch=sc.next( ).charAt(0);	 
 	
 	  switch(ch)
@@ -24,15 +24,15 @@ class vowelcons
 	    case 'E'  :
 	    case 'I'  :
 	    case 'O'  :
-	    case 'U'  :i++;
+	    case 'U'  :x++;
 	   }
-	   if(i==1)
-	   System.out.println("The Entered character "+ch+" is  Vowel");
+	   if(x==1)
+	   System.out.println("The Entered char "+ch+" is  Vowel");
 	   else 
 	   if((ch>='a'&&ch<='z')||(ch>='A'&&ch<='Z'))
 		
-	   System.out.println("The Entered character "+ch+" is Consonent");
+	   System.out.println("The Entered char "+ch+" is Consonent");
 	   else
-	   System.out.println("Not an alphabet");		
+	   System.out.println("Not an alphabet , error");		
 	}
 }
