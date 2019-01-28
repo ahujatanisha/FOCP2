@@ -22,8 +22,7 @@ class StudentDriver
       System.out.println("The first name is:");
 
       firstName = input.next();
-      s.setFN(firstName);
-
+      
       System.out.println("The last name is:"); 	
       lastName = input.next();
       s.setLN(lastName);
@@ -65,7 +64,7 @@ class StudentDriver
          	System.out.println("The project details of the student  is:");
           university = input.next();
 
-         	qual.setU(university);
+         	qual.setUni(university);
           System.out.println("The cgpa of the student  is:");
 
          	cgpa= input.nextFloat();
@@ -95,7 +94,7 @@ class StudentDriver
 
               
 
-          pinCode = input.nextInt();
+          pinCode =input.nextInt();
 
          	addr.setPN(pinCode);
      }
