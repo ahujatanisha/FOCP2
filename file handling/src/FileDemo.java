@@ -16,7 +16,8 @@ public class FileDemo
  	     System.out.print("\n"+a);
             System.out.print("\nLength =" +f.length());
             
-         } catch (Exception e) {
+         } catch (Exception e) 
+         {
          // if any I/O error occurs
          e.printStackTrace();
       }
